@@ -1,7 +1,8 @@
 GCI - DCS v.5.06
 
+https://github.com/astrolavos1998/GCI-DCS
 
-- [ENG] -
+-[ENG]-
 The Lua script GCI - DCS version 5.06 simulates the operation of a GCI (Ground Controlled Interception) controller or an AWACS (Airborne Warning And Control System).
 Functionality Summary:
 	-Identifies the player (client) and his side (BLUE or RED).
@@ -11,16 +12,11 @@ Functionality Summary:
 	-Displays the reference on the player's screen, either in BRAA (Bearing, Range, Altitude, Aspect) or BULLSEYE (reference from reference point) format.
 	-Adds a radio menu (F10) for the player to set various parameters.
 
-https://github.com/astrolavos1998/GCI-DCS
 
 [!] WARNING: Use of GCI v.5.06.lua is at your own risk.
 
 
-GCI v.5.06® 2025© for LOCK-ON GREECE by =GR= Astr0
-
-
-
-- [GR] -
+-[GRE]-
 Ο Lua κώδικας GCI - DCS έκδοση 5.06 προσομοιώνει τη λειτουργία ενός ελεγκτή GCI (Ελεγχόμενη από το Έδαφος Αναχαίτιση) ή ενός AWACS (Σύστημα Αερομεταφερόμενης Προειδοποίησης και Ελέγχου).
 Περίληψη Λειτουργικότητας:
 	-Εντοπίζει τον παίκτη (client) και την πλευρά του (BLUE ή RED).
