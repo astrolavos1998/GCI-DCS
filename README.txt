@@ -6,6 +6,10 @@ https://github.com/astrolavos1998/GCI-DCS
 FULL USER MANUAL
 
 GCI v.5.18 is the premier ground-controlled interception system for DCS World, providing absolute battlefield awareness with zero workload for the mission creator.
+It is completely autonomous and does not require any other external framework (MIST, MOOSE etc) to run.
+    -Using Native DCS API: The script relies exclusively on the built-in functions of ED (Eagle Dynamics), such as world.addEventHandler, land.getHeight, coalition.getGroups and timer.scheduleFunction.
+    -Logic Autonomy: All distance, Bearing, Bullseye and Line of Sight (LOS) calculations are done within the code of the file itself.
+    -Menu Management: The commands for the F10 radio menu use the missionCommands library, which is part of the core DCS scripting environment.
 
 	WHAT GCI V.5.17 OFFERS:
 		Full Automation: No unit configuration is required in the Mission Editor. The script automatically identifies active radar units.
@@ -55,6 +59,11 @@ Have fun!
 ΠΛΗΡΕΣ ΕΓΧΕΙΡΙΔΙΟ ΧΡΗΣΗΣ
 
 Το GCI v.5.18 αποτελεί την κορυφαία έκδοση του συστήματος επίγειας καθοδήγησης για το DCS World, προσφέροντας απόλυτη επίγνωση της μάχης με μηδενικό φόρτο εργασίας για τον δημιουργό της αποστολής.
+Είναι εντελώς αυτόνομο και δεν απαιτεί οποιοδήποτε άλλο εξωτερικό framework (MIST, MOOSE κλπ) για να εκτελεστεί.
+    -Χρήση Native DCS API: Το script βασίζεται αποκλειστικά στις ενσωματωμένες συναρτήσεις της ED (Eagle Dynamics), όπως οι world.addEventHandler, land.getHeight, coalition.getGroups και timer.scheduleFunction.
+    -Αυτονομία Λογικής: Όλοι οι υπολογισμοί για την απόσταση, το Bearing, το Bullseye και το Line of Sight (LOS) γίνονται μέσα από τον κώδικα του ίδιου του αρχείου.
+    -Διαχείριση Μενού: Οι εντολές για το ραδιοφωνικό μενού F10 χρησιμοποιούν τη βιβλιοθήκη missionCommands, η οποία είναι μέρος του βασικού DCS scripting environment.
+
 
 	ΤΙ ΠΡΟΣΦΕΡΕΙ ΤΟ GCI V.5.17:
 		Πλήρης Αυτοματοποίηση: Δεν απαιτείται καμία ρύθμιση μονάδων στο Mission Editor. Το script αναγνωρίζει μόνο του ποια ραντάρ είναι ενεργά.
