@@ -5,7 +5,7 @@ https://github.com/astrolavos1998/GCI-DCS
 -[ENG]-
 FULL USER MANUAL
 
-GCI v.5.18 is the premier ground-controlled interception system for DCS World, providing absolute battlefield awareness with zero workload for the mission creator.
+GCI - DCS v.5.18 is the premier ground-controlled interception system for DCS World, providing absolute battlefield awareness with zero workload for the mission creator.
 It is completely autonomous and does not require any other external framework (MIST, MOOSE etc) to run.
     -Using Native DCS API: The script relies exclusively on the built-in functions of ED (Eagle Dynamics), such as world.addEventHandler, land.getHeight, coalition.getGroups and timer.scheduleFunction.
     -Logic Autonomy: All distance, Bearing, Bullseye and Line of Sight (LOS) calculations are done within the code of the file itself.
@@ -47,18 +47,18 @@ INSTALLATION INSTRUCTIONS
 	Installation is completed in seconds within the Mission Editor:
 		1. TRIGGERS: Create a new trigger with Type 4 MISSION START.
 		2. CONDITIONS: Leave blank (so it runs for everyone).
-		3. ACTIONS: Select DO SCRIPT FILE and choose the GCI v.5.18.lua file, or select DO SCRIPT and copy/paste the GCI v.5.18.lua code.
-	Confirmation of correct installation will be a message on screen at mission start: "GCI v.5.18® 2025© . . . Loaded successfully.".
+		3. ACTIONS: Select DO SCRIPT FILE and choose the GCI - DCS v.5.18.lua file, or select DO SCRIPT and copy/paste the GCI - DCS v.5.18.lua code.
+	Confirmation of correct installation will be a message on screen at mission start: "GCI - DCS v.5.18® 2025© . . . Loaded successfully.".
 
 Have fun!
 
-[!] WARNING: The use of GCI version 5.06.lua is at your own risk.
+[!] WARNING: The use of script is at your own risk.
 
 
 -[GRE]-
 ΠΛΗΡΕΣ ΕΓΧΕΙΡΙΔΙΟ ΧΡΗΣΗΣ
 
-Το GCI v.5.18 αποτελεί την κορυφαία έκδοση του συστήματος επίγειας καθοδήγησης για το DCS World, προσφέροντας απόλυτη επίγνωση της μάχης με μηδενικό φόρτο εργασίας για τον δημιουργό της αποστολής.
+Το GCI - DCS v.5.18 αποτελεί την κορυφαία έκδοση του συστήματος επίγειας καθοδήγησης για το DCS World, προσφέροντας απόλυτη επίγνωση της μάχης με μηδενικό φόρτο εργασίας για τον δημιουργό της αποστολής.
 Είναι εντελώς αυτόνομο και δεν απαιτεί οποιοδήποτε άλλο εξωτερικό framework (MIST, MOOSE κλπ) για να εκτελεστεί.
     -Χρήση Native DCS API: Το script βασίζεται αποκλειστικά στις ενσωματωμένες συναρτήσεις της ED (Eagle Dynamics), όπως οι world.addEventHandler, land.getHeight, coalition.getGroups και timer.scheduleFunction.
     -Αυτονομία Λογικής: Όλοι οι υπολογισμοί για την απόσταση, το Bearing, το Bullseye και το Line of Sight (LOS) γίνονται μέσα από τον κώδικα του ίδιου του αρχείου.
@@ -101,12 +101,12 @@ Have fun!
 	Η εγκατάσταση ολοκληρώνεται σε δευτερόλεπτα μέσα στον Mission Editor:
 		1. TRIGGERS: Δημιουργήστε έναν νέο trigger με τύπο 4 MISSION START.
 		2. CONDITIONS: Αφήστε το κενό (ώστε να τρέξει για όλους).
-		3. ACTIONS: Επιλέξτε την εντολή DO SCRIPT FILE και επιλέξτε το αρχείο GCI v.5.18.lua ή DO SCRIPT και κάνετε αντιγραφή/επικόληση τον κώδικα του GCI v.5.18.lua.
-	Η επιβεβαίωση της σωστής εγκατάστασης θα είναι με την έναρξη της αποστολής, να εμφανιστεί στην οθόνη το μήνυμα: "GCI v.5.18® 2025© . . . Loaded successfully.".
+		3. ACTIONS: Επιλέξτε την εντολή DO SCRIPT FILE και επιλέξτε το αρχείο GCI - DCS v.5.18.lua ή DO SCRIPT και κάνετε αντιγραφή/επικόληση τον κώδικα του GCI - DCS v.5.18.lua.
+	Η επιβεβαίωση της σωστής εγκατάστασης θα είναι με την έναρξη της αποστολής, να εμφανιστεί στην οθόνη το μήνυμα: "GCI - DCS v.5.18® 2025© . . . Loaded successfully.".
 
 Καλή διασκέδαση!
 
 
-[!] ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Η χρήση του GCI έκδοση 5.06.lua γίνεται με δική σας ευθύνη.
+[!] ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Η χρήση του script γίνεται με δική σας ευθύνη.
 
-GCI v.5.18® 2025© για την LOCK-ON GREECE από τον =GR= Astr0
+GCI - DCS v.5.18® 2025© για την LOCK-ON GREECE από τον =GR= Astr0
